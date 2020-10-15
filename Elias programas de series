@@ -1,0 +1,46 @@
+// Elias Xahuentitla Limaº 4A
+// Programa Serie Nº 1
+#include <stdio.h>
+int main ()
+{
+int cont = 0;
+int n;
+
+{
+printf ("Escribe un numero:\n");
+  scanf ("%d",&n);
+
+while(cont<=n+n+1)
+
+{
+    printf("%d\n",(3*n)+(cont*2));
+
+    cont=cont+1;
+}
+return 0;
+}
+}
+
+// Elias Xahuentitla Limaº 4A
+// Programa Serie Nº 2
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int cont=0, n, n1, n2;
+
+printf("digita el valor de n\n");
+scanf("%d",&n2);
+
+while(cont<=n2)
+  {
+n=cont;
+n1=(n2*n2)-2*n;
+printf("%d \n", n1);
+cont=cont+1;
+  }
+
+  return 0;
+}
